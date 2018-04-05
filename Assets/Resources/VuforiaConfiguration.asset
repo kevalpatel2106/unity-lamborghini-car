@@ -8,12 +8,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -2067402452, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Script: {fileID: -2067402452, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
     vuforiaLicenseKey: ARTQkpj/////AAABmQ6k4u5gZ00Hn/X+Yr7KinpOWh4n4BHav9cfA4uf2SPfpU91VLrKLbSARL1WeHXgD81x7LIMBYmfxkGDvbSN+Mfyx3cv3nZCL72mV+HWrfGNcabUgF5SnJu+2dO8MJs+ux/3rweIPJRAaqgGT5hp2bl2lqTVqGjAeWKmTZm/l3Cw67VShjUamjOzl3g3VkucoL9GnNckkTn1Q03GtamGgb8e76uC0hkekPzsEi6IXFl6wVwwAKUJmgq23gSB4jISMQaalkuNECZSZzAXr8iGRMaYhE8jNuoogBple63mndMQBFkbdqlT7FRbaV8NFmLMk1sMB5nWyetF/9cv00Tr6Bh2nqtsERPYDAlfLEGz2G5H
-    ufoLicenseKey: QVR1RnM4SC8vLy8vQUFBQUtHYUhmbWJ1Z2szanZPUjczdkJoQ3VNUVZVZDVPSUlSeGtKeVpWd1N5MkVsbFdEeXh4cnkzSnA1d2hYNGw4Q2tDclNLTjZYbmNLWDNMbkxyRHZCV0FyMHJOalcrTnJVN3JiVkdTZng2eGgzejVlYnZrUXkwTzM3VGZONUNhOUZnV1MrMEJGaUE4M3RKQ2JZYUFlRndDRWxHOTROakZQU1BCTjFyQmxzTVI5N2pEeTFDRlBjQlVOUlNhNVd6ZDVZb1JVbEFEODJaOTFmRXdjSFpYekJHZ1lVT3pDeGhjSk5RQnVjb1NPQ2xQV1RTZ2V3K3YrZDYxWnpCS01JVzk5N05wTlNjZHdkcDZDb2syYXRzSXd1ZkRpV1JsKzJCY2dYQWozZG9wakFRNUtxSlY1UG53UWxhT3V4TldYUStvcVVNMFNycnBoNCtBTkVibkVnaU4vNjVoM0NjWi9Gd2kwbE0xeEZvSXhPQ3Rodlc=
+    ufoLicenseKey: QWFSMGFCRC8vLy8vQUFBQUtDaWxvZi9oRkU1bGpFd1QyR2UzTHJrUWc2OENNdStzTzBybHFCa0kvMnpTME5kamhqdmtibkVEV2w3Rlo3SDMvbUJ2a0VTVGRRYzIzWmNJR1dSWGcyQWNycTNGZno5NmFuK2ZqNit5YlpQbHUxbGtaQkFIOC9lemxoaEZqRXA2U1RLNit6NnBtYkFHU2ZySERraDZVdzEvUkVXdjQzOE9xeHplUFZWS2pUQXNJNHRKRS8rK01Zb0QrQlVrdkdmUUEzSGwvREJpaHRnNmNNYXlTc3BVNWh0SnQzeUNrYms1WHJNaWZmV29NRkNIK1I3NUVZUE9ZNzdxR3dCdnFLTEt0c0ZONkVzL0FLMDdndnZnRi9WejBLNE9lVk50MEZ0TG5hbnJLd1Zjc2FxN1RSU3VVU1VPV01EdWh6c2lJNmxtZ3dxVXIwMVk0aWRySWJtRXc1QjgwNERWQ0pvMnBnYU1MeUU5N2JKT2VJcmQ=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
@@ -45,12 +45,8 @@ MonoBehaviour:
   databaseLoad:
     dataSetsToLoad:
     - vuforia_target
-    - VuforiaMars_Images
-    - VuforiaMars_VuMark
     dataSetsToActivate:
     - vuforia_target
-    - VuforiaMars_Images
-    - VuforiaMars_VuMark
   videoBackground:
     clippingMode: 0
     numDivisions: 2
@@ -59,9 +55,9 @@ MonoBehaviour:
     matteShader: {fileID: 15310, guid: 0000000000000000f000000000000000, type: 0}
     videoBackgroundEnabled: 1
   deviceTracker:
-    autoInitTracker: 0
-    autoStartTracker: 0
-    trackingMode: 0
+    autoInitTracker: 1
+    autoStartTracker: 1
+    trackingMode: 1
     posePrediction: 0
     modelCorrectionMode: 0
     modelTransformEnabled: 0
