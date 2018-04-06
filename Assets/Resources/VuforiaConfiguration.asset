@@ -8,12 +8,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -2067402452, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Script: {fileID: -2067402452, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: ARTQkpj/////AAABmQ6k4u5gZ00Hn/X+Yr7KinpOWh4n4BHav9cfA4uf2SPfpU91VLrKLbSARL1WeHXgD81x7LIMBYmfxkGDvbSN+Mfyx3cv3nZCL72mV+HWrfGNcabUgF5SnJu+2dO8MJs+ux/3rweIPJRAaqgGT5hp2bl2lqTVqGjAeWKmTZm/l3Cw67VShjUamjOzl3g3VkucoL9GnNckkTn1Q03GtamGgb8e76uC0hkekPzsEi6IXFl6wVwwAKUJmgq23gSB4jISMQaalkuNECZSZzAXr8iGRMaYhE8jNuoogBple63mndMQBFkbdqlT7FRbaV8NFmLMk1sMB5nWyetF/9cv00Tr6Bh2nqtsERPYDAlfLEGz2G5H
-    ufoLicenseKey: QVJBQUxHdi8vLy8vQUFBQUtDb1V3OEJtWUVQUnN1aS84TUJucmRwb1Ntbk9FZmNwS3RXTkZYMWNSbXk3NldCZkhER2RsVi96TGt2WEdOVmM5NXlaSjNteTVXS0pTbDVtV1lsUFAvZk1GZTYzNzR0aFJHOTJTNkVMRUdDd1dFRlNjTVpGQmM5SkQwTm4yQ1IzY3NMOG94TEJtNncvSE5RRFpKQTVENnZ2VVkyZlFoV25QSDVPamJudFpoM3FPQUROWU5YcTlkMnk0bmxLZmxGK29GcWF1cVhaVE45Umc4b05id2NuRExlSFVmMW5YSmRHVGtxNEtmVDgwQ2NPRXp5STV1Q29DT0d1akxkK00ybldydGcwcmVtQk5Kbmt5YmxCUG1mRXpjcm1YK2d0Sk4vaFFWNnA0UkNHemFNL0E2TDlEMnBGUGlReXdRT1grWlBqa0hCR3UwMnFFRmlPMGhycDI0dkJlNVdOdUkwRWk0MGJKWFJUSUJrcEpWYlA=
+    vuforiaLicenseKey: 
+    ufoLicenseKey: QVUycENxdi8vLy8vQUFBQUtHMWJXSWQyS2tvc29kaDVsWEp5dVJrcWljbkxjSThxYkc0UitEbDZONDE2VGRjRE0vTTRHTTlaWXZRZEQxaHZSRG1nQXI1WExyQ3N6Qlh4emZlcEcwazF3YmJDTmNUVGZBV0xabGpNVFlkdUxYMTU5OTJzVVQreWtIUlZmaE0vWkd3NUJBZkQ3SlJaSkxFRXBZTDhxOHVLQmlodFhHTzlMWHk0Q3dBWFNaYnZnUzRqdUQxbWQ2aXZQSFVTYURSY3Rmb3JYSFJlR0N0TFFVd2FaMXBJMjY0dGJHNmVBZDdtT3A4Wkh5QkdqZkNqd2FUQmR2bVR6WW9JaWJqTjJqVDFKM1ZWRXh5YlgzMjZmUWE3dUFKdk5BVjB1S25kM3orWFFRQTJYZGQyeVdodzl0UHBlam9jWEsxYzBaa1dla0JCMWpabWxJbXBObGl5REROWENJTzZUNUsxaDBuTDRUOHpYKzJiV3hnUFZpTzE=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
@@ -43,10 +43,8 @@ MonoBehaviour:
       FieldOfView: {x: 0, y: 0, z: 0, w: 0}
       ContainsMagnet: 0
   databaseLoad:
-    dataSetsToLoad:
-    - vuforia_target
-    dataSetsToActivate:
-    - vuforia_target
+    dataSetsToLoad: []
+    dataSetsToActivate: []
   videoBackground:
     clippingMode: 0
     numDivisions: 2
@@ -55,9 +53,9 @@ MonoBehaviour:
     matteShader: {fileID: 15310, guid: 0000000000000000f000000000000000, type: 0}
     videoBackgroundEnabled: 1
   deviceTracker:
-    autoInitTracker: 1
-    autoStartTracker: 1
-    trackingMode: 1
+    autoInitTracker: 0
+    autoStartTracker: 0
+    trackingMode: 0
     posePrediction: 0
     modelCorrectionMode: 0
     modelTransformEnabled: 0
